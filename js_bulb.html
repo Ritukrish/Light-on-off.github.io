@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb ON/OFF</title>
+
+    <style>
+        .author {
+            border: solid red;
+            display: table;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2> Javascript can change html attributes</h2>
+    <p> Click on the button to see the MAGIC!</p>
+
+    <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+    <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+    <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+    <div class="author">Done by RITU</div>
+
+</html>
